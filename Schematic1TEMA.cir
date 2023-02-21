@@ -1,0 +1,24 @@
+* D:\Desktop\TEMA DE CASA DE\wroklab1\Schematic1TEMA.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Jan 17 14:03:14 2023
+
+
+
+** Analysis setup **
+.DC LIN V_VGS 0 5 0.1 
++ LIN V_VDS 5 25 8 
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic1TEMA.net"
+.INC "Schematic1TEMA.als"
+
+
+.probe
+
+
+.END

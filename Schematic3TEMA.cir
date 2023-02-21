@@ -1,0 +1,23 @@
+* D:\Desktop\wroklab1\Schematic3TEMA.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Jan 03 22:50:30 2023
+
+
+
+** Analysis setup **
+.tran 0ns 10ms
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic3TEMA.net"
+.INC "Schematic3TEMA.als"
+
+
+.probe
+
+
+.END

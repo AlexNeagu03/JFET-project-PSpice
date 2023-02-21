@@ -1,0 +1,8 @@
+* Schematics Netlist *
+
+
+
+J_J3         $N_0002 $N_0001 0 J2N3819 
+V_VGS         0 $N_0001 5
+V_VDS         $N_0003 0 10
+R_R2         $N_0002 $N_0003  100  
